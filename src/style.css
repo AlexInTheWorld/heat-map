@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Teko&display=swap");
+
+body {
+	background-color: lightgray;
+	font-family: "Teko", serif;
+	font-size: 1.2em;
+}
+
+.inner {
+	font-family: "Fira Sans Condensed", "Verdana", sans-serif;
+	font-size: 22px;
+	text-align: center;
+	color: #3d1010;
+}
+
+.tooltip {
+	position: absolute;
+	z-index: 10;
+	background-color: lightgray;
+	border-radius: 5%;
+	border: 1px solid gray;
+	width: 120px;
+	text-align: center;
+	pointer-events: none;
+}
+
+.cell:hover {
+	stroke: white;
+	stroke-width: 2px;
+}
